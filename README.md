@@ -3,7 +3,7 @@ the ultimate c++ namespace
 
 ## How to use
 
-###1.bignumber
+### 1.bignumber
     
 	#include ".../xxx/bignumber/bignumber.hpp"
 	#include <iostream>
