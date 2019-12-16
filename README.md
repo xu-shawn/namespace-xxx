@@ -3,20 +3,21 @@ the ultimate c++ namespace
 
 ## How to use
 
-1.bignumber
+###1.bignumber
+    
+	#include ".../xxx/bignumber/bignumber.hpp"
+	#include <iostream>
 
-'''cpp
+	using namespace std;
+	using namespace xxx;
 
-#include ".../xxx/bignumber/bignumber.hpp"
-#include <iostream>
+	int main()
 
-using namespace std;
-using namespace xxx;
+	{
 
-int main()
-{
-  bignumber a,b;
-  cin >> a >> b;
-  cout << a+b;
-}
-'''
+  		bignumber a,b;
+
+ 		cin >> a >> b;
+
+		cout << a+b;
+	}
